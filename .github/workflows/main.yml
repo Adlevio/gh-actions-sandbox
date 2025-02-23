@@ -1,0 +1,12 @@
+---
+name: main
+
+on:
+  pull_request:
+  push:
+
+jobs:
+  main:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: hmarr/debug-action@v3
