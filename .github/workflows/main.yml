@@ -10,3 +10,12 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - uses: hmarr/debug-action@v3
+
+  node:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: print node version
+        run: node --version
+
+      - name: print npm version
+        run: npm --version
